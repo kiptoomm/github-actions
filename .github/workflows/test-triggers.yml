@@ -8,7 +8,7 @@ on:
   push:
     branches: [ test_* ]
   pull_request:
-    branches: [ test_ga_triggers ]
+    branches: [ test_* ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
