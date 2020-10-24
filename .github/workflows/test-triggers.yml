@@ -6,7 +6,7 @@ name: Hello from Test
 # events but only for the test_ga_triggers branch
 on:
   push:
-    branches: [ test_ga_triggers ]
+    branches: [ test_* ]
   pull_request:
     branches: [ test_ga_triggers ]
 
